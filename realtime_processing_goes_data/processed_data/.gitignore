@@ -1,0 +1,7 @@
+python
+import os
+
+# create the .gitignore file
+with open(os.path.join('realtime_processing_goes_data', 'processed_data', '.gitignore'), 'w') as f:
+    f.write('*\n')
+    f.write('!.gitignore\n')
